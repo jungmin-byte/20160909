@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>MUSINSA Review</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+		<style>
+			/*전체에 폰트 일괄적용*/
+			* {
+				font-family: 'Noto Sans KR', sans-serif;
+				background: #fcf8ec;
+			}
+
+			/*div 안에 있는 menu요소 스타일링*/
+			#menu {
+				text-align: center;
+				margin-top: 80px;
+				font-weight: 600;
+				margin-bottom: 60px;
+			}
+			#menu a {
+				margin-left: 30px;
+				margin-right: 30px;
+				font-size: 20px;
+				text-decoration: none;
+				color: #1c2b2d;
+			}
+
+			/*musinsa image*/
+			#musinsapic1 img{
+				display: block;
+				position: relative;
+				top: 60px;
+				left: 300px;
+				border-radius: 15px;
+			}
+
+			#musinsapic2 img{
+				display: block;
+				position: relative;
+				top: 60px;
+				left: 300px;
+				border-radius: 15px;
+				margin-top: 60px;
+			}
+
+			/*review contents styling*/
+			.right {
+				position: relative;
+				top: -1200px;
+				left: 800px;				
+				width: 500px;
+			}
+
+			.name {
+				font-size: 40px;
+				font-weight: 700;
+			}
+
+			.brand {
+				font-size: 23px;
+				font-weight: 500;
+			}
+
+			.about {
+				font-size: 14px;
+				margin-top: 60px;
+			}
+
+			.appfeatures {
+				font-size: 23px;
+				font-weight: 500;
+			}
+
+			.features {
+				font-size: 14px;
+				margin-bottom: 35px;
+				margin-top: 35px;
+			}
+
+			.points {
+				font-size: 23px;
+				font-weight: 500;
+			}
+
+			.improve {
+				font-size: 14px;
+			}
+
+			/*musinsa link styling*/
+			.musinsa-link {
+				margin-top: 60px;
+
+			}
+
+			.musinsa-link a {
+				text-decoration: none;
+				font-weight: 200;
+				margin-right: 30px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<!-- 메뉴 -->
+		<div id="menu">
+			<a href = "../home.html">Home</a>
+			<a href = "profile.html">Profile</a>
+			<a href = "musinsa review.html">MUSINSA Review</a>
+		</div>
+
+		<!-- musinsa image -->
+		<div id = musinsapic1>
+			<img src = "musinsa2.png" width = 20%>
+		</div>
+
+		<div id = musinsapic2>
+			<img src = "musinsa3.png" width = 20%>
+		</div>
+
+
+		<!-- musinsa review -->
+	    <div>
+	      <div class="right">
+	        <!-- review start -->
+			<p class = "name">
+				MUSINSA
+			</p>
+			<p class = "about">
+				<span class = "brand">About MUSINSA</span><br>
+				MUSINSA is Korea's <i>largest</i> online select shop which is including over 3500 of street fashion brands.<br>It is <i>top player</i> of fashion select shop market - with yearly turnover of 900billion won and 6millions of members.<br>
+				It provides various services :<br>
+				<i>MUSINSA Standard (PB)<br>
+				WUSINSA (for women)<br>
+				MUSINSA Studio (shared office)<br>
+				etc.</i>
+			</p>
+			<p class = "features">
+				<span class = "appfeatures">Features & Functions</span><br>
+				The biggest advantage is that many services are available through a single app called MUSINSA.<br>
+				If you click M button at the bottom center of the app, you can see all the services provided by MUSINSA at a glance. (except 'soldout' service)<br>
+				Instead of having to install multiple apps for each service, it provides an integrated UX from one app to satisfy customers.
+			</p>
+			<p class = "improve">
+				<span class = "points">Two Points to Improve</span><br>
+				1. Lack of App Optimization<br>
+				Sometimes the app is slow to operate, or screen switching, scrolling, etc. are unnatural. As there are many services in a single app, it needs to be optimized so that slow speeds do not interfere with UX.<br>
+				2. No Add Button on Product List Page<br>
+				When a user looks at the product list page, he/she can see how many people have added the product to their list of interests, but to add it to his/her list of interests, he/she needs to click the product to enter the product detail page. If users can click the heart button directly on the list page to add it to their list of interests, it will be a smoother shopping experience.
+			</p>
+
+			<!-- 무신사 바로가기 -->
+			<p class = "musinsa-link">
+				<a href = "https://www.musinsa.com/" target="_blank">MUSINSA Website</a>
+				<a href = "https://play.google.com/store/apps/details?id=com.musinsa.store" target="_blank">Download APP</a>
+			</p>
+	      </div>
+	    </div>
+	</body>
+
+</html>
